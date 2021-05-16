@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "593236258710",
+    "project_id": "western-trilogy-298606",
+    "storage_bucket": "western-trilogy-298606.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:593236258710:android:6777e65eef8231238577b7",
+        "android_client_info": {
+          "package_name": "com.voucher.quizgame"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "593236258710-qa4majvac0jrq70e4738rt4vku9ls61e.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.voucher.quizgame",
+            "certificate_hash": "130c5d6824a9184828bbb49378f5b039c5a9fa2d"
+          }
+        },
+        {
+          "client_id": "593236258710-e84dng2gbai9pl5mcpdhmvqm5735t5k8.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAad5OHsN5mrAkF7uao9e3-AjAlHNuWe1w"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "593236258710-e84dng2gbai9pl5mcpdhmvqm5735t5k8.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

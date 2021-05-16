@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph.xml"
+    app:startDestination="@id/starter">
+
+    <fragment
+        android:id="@+id/starter"
+        android:name="com.voucher.quizgame.starter"
+        android:label="fragment_starter"
+        tools:layout="@layout/fragment_starter" >
+        <action
+            android:id="@+id/action_starter_to_welcome_screen"
+            app:destination="@id/welcome_screen" />
+        <action
+            android:id="@+id/action_starter_to_settings"
+            app:destination="@id/settings" />
+    </fragment>
+    <fragment
+        android:id="@+id/welcome_screen"
+        android:name="com.voucher.quizgame.welcome_screen"
+        android:label="fragment_welcome_screen"
+        tools:layout="@layout/fragment_welcome_screen" >
+        <action
+            android:id="@+id/action_welcome_screen_to_quiz_board"
+            app:destination="@id/quiz_board" />
+    </fragment>
+    <fragment
+        android:id="@+id/quiz_board"
+        android:name="com.voucher.quizgame.quiz_board"
+        android:label="fragment_quiz_board"
+        tools:layout="@layout/fragment_quiz_board" >
+        <action
+            android:id="@+id/action_quiz_board_to_result"
+            app:destination="@id/result" />
+        <action
+            android:id="@+id/action_quiz_board_to_settings"
+            app:destination="@id/settings" />
+    </fragment>
+    <fragment
+        android:id="@+id/result"
+        android:name="com.voucher.quizgame.result"
+        android:label="fragment_result"
+        tools:layout="@layout/fragment_result" >
+        <action
+            android:id="@+id/action_result_to_settings"
+            app:destination="@id/settings" />
+        <action
+            android:id="@+id/action_result_to_starter"
+            app:destination="@id/starter" />
+    </fragment>
+    <fragment
+        android:id="@+id/settings"
+        android:name="com.voucher.quizgame.Settings"
+        android:label="fragment_settings"
+        tools:layout="@layout/fragment_settings" />
+</navigation>
